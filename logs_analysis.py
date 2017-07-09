@@ -34,9 +34,17 @@ SELECT article_title, views
 FROM   collect
 LIMIT 3;"""
 
+# 2. Who are the most popular article authors of all time?
+query2 = """
+SELECT author_name, sum(collect.views)::INTEGER AS views
+FROM   collect
+GROUP BY author_name
+ORDER BY views DESC;"""
+
 if __name__ == '__main__':
     # Writing the output of the queries
     with open('output.txt', 'w') as f:
         f.write('1. What are the most popular three articles of all time?\n')
         write_output(f, query1, 'views')
-
+        f.write('2. Who are the most popular article authors of all time?\n')
+        write_output(f, query2)

@@ -4,6 +4,7 @@
     <list default="true" id="15e21e21-db02-46c3-a178-7589d57cba05" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs_analysis.py" afterPath="$PROJECT_DIR$/logs_analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,14 +35,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logs_analysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logs_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="502">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
-                <marker date="1499640216679" expanded="true" signature="825:875" ph="SELECT artic... collect" />
+                <marker date="1499640550009" expanded="true" signature="825:875" ph="SELECT artic... collect" />
+                <marker date="1499640550009" expanded="true" signature="953:1065" ph="SELECT autho... collect" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +86,7 @@
         <option value="$PROJECT_DIR$/log_analysis.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/logs_analysis.py" />
+        <option value="$PROJECT_DIR$/output.txt" />
       </list>
     </option>
   </component>
@@ -409,11 +422,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="502">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <marker date="1499640216679" expanded="true" signature="825:875" ph="SELECT artic... collect" />
+            <marker date="1499640550009" expanded="true" signature="825:875" ph="SELECT artic... collect" />
+            <marker date="1499640550009" expanded="true" signature="953:1065" ph="SELECT autho... collect" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
