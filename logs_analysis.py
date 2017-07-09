@@ -14,3 +14,9 @@ def get_query(q, db="news"):
     results = c.fetchall()
     conn.close()
     return results
+
+# 1. What are the most popular three articles of all time?
+query1 = """
+SELECT article_title, views
+FROM   collect
+LIMIT 3;"""
