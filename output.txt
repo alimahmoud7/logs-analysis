@@ -5,10 +5,10 @@
 
 
 2. Who are the most popular article authors of all time?
-- Ursula La Multa -- 507594 
-- Rudolf von Treppenwitz -- 423457 
-- Anonymous Contributor -- 170098 
-- Markoff Chaney -- 84557 
+- Ursula La Multa -- 507594 views
+- Rudolf von Treppenwitz -- 423457 views
+- Anonymous Contributor -- 170098 views
+- Markoff Chaney -- 84557 views
 
 
 3. On which days did more than 1% of requests lead to errors?

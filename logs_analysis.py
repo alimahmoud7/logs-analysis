@@ -66,7 +66,7 @@ if __name__ == '__main__':
         f.write('1. What are the most popular three articles of all time?\n')
         write_output(f, query1, 'views')
         f.write('2. Who are the most popular article authors of all time?\n')
-        write_output(f, query2)
+        write_output(f, query2, 'views')
         f.write('3. On which days did more than 1% of requests '
                 'lead to errors?\n')
         write_output(f, query3, '% errors')
