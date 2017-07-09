@@ -41,6 +41,25 @@ FROM   collect
 GROUP BY author_name
 ORDER BY views DESC;"""
 
+# 3. On which days did more than 1% of requests lead to errors?
+query3 = """
+SELECT to_char(day, 'FMMonth DD,YYYY'),  -- For output style only
+       error_percent::NUMERIC
+FROM (SELECT error.day,
+             round((error_count/total_count)*100, 1) AS error_percent
+      FROM (SELECT cast(time AS DATE) AS day,
+                   cast(count(status) AS DECIMAL) AS error_count
+            FROM   log
+            WHERE  status LIKE '404%'
+            GROUP BY day) AS error,
+           (SELECT cast(time AS DATE) AS day,
+                   cast(count(status) AS DECIMAL) AS total_count
+            FROM   log
+            GROUP BY day) AS total
+      WHERE error.day = total.day
+      ORDER BY error_percent DESC) AS percent
+WHERE error_percent > 1.0;"""
+
 if __name__ == '__main__':
     # Writing the output of the queries
     with open('output.txt', 'w') as f:
@@ -48,3 +67,6 @@ if __name__ == '__main__':
         write_output(f, query1, 'views')
         f.write('2. Who are the most popular article authors of all time?\n')
         write_output(f, query2)
+        f.write('3. On which days did more than 1% of requests '
+                'lead to errors?\n')
+        write_output(f, query3, '% errors')

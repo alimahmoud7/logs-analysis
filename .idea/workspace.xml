@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15e21e21-db02-46c3-a178-7589d57cba05" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs_analysis.py" afterPath="$PROJECT_DIR$/logs_analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
     </list>
@@ -38,11 +37,15 @@
       <file leaf-file-name="logs_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1499640550009" expanded="true" signature="825:875" ph="SELECT artic... collect" />
-                <marker date="1499640550009" expanded="true" signature="953:1065" ph="SELECT autho... collect" />
+                <marker date="1499640627931" expanded="true" signature="825:875" ph="SELECT artic... collect" />
+                <marker date="1499640627931" expanded="true" signature="953:1065" ph="SELECT autho... collect" />
+                <marker date="1499640627931" expanded="true" signature="1148:1820" ph="SELECT to_ch... day" />
+                <marker date="1499640627931" expanded="true" signature="1250:1782" ph="SELECT error... cast" />
+                <marker date="1499640627931" expanded="true" signature="1350:1534" ph="SELECT cast(... log" />
+                <marker date="1499640627931" expanded="true" signature="1558:1704" ph="SELECT cast(... log" />
               </folding>
             </state>
           </provider>
@@ -85,8 +88,8 @@
         <option value="$PROJECT_DIR$/queries.sql" />
         <option value="$PROJECT_DIR$/log_analysis.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/logs_analysis.py" />
         <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/logs_analysis.py" />
       </list>
     </option>
   </component>
@@ -317,7 +320,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13808802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -422,11 +425,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1499640550009" expanded="true" signature="825:875" ph="SELECT artic... collect" />
-            <marker date="1499640550009" expanded="true" signature="953:1065" ph="SELECT autho... collect" />
+            <marker date="1499640627931" expanded="true" signature="825:875" ph="SELECT artic... collect" />
+            <marker date="1499640627931" expanded="true" signature="953:1065" ph="SELECT autho... collect" />
+            <marker date="1499640627931" expanded="true" signature="1148:1820" ph="SELECT to_ch... day" />
+            <marker date="1499640627931" expanded="true" signature="1250:1782" ph="SELECT error... cast" />
+            <marker date="1499640627931" expanded="true" signature="1350:1534" ph="SELECT cast(... log" />
+            <marker date="1499640627931" expanded="true" signature="1558:1704" ph="SELECT cast(... log" />
           </folding>
         </state>
       </provider>
