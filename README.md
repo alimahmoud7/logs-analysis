@@ -53,7 +53,7 @@ This project was created for the *Full Stack Web Developer Nanodegree* at [**Uda
     ```
 2. Check the output file for the results `output.txt`
 
-##### For more understanding please check the PostgreSQL documentation
+##### For more understanding please check the [PostgreSQL documentation](https://www.postgresql.org/docs/current/static/index.html)
 - [The select statement](https://www.postgresql.org/docs/9.5/static/sql-select.html)
 - [SQL string functions](https://www.postgresql.org/docs/9.5/static/functions-string.html)
 - [Aggregate functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
