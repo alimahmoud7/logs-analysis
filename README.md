@@ -1,7 +1,7 @@
 # Logs Analysis Project
 This project was created for the *Full Stack Web Developer Nanodegree* at [**Udacity**](https://www.udacity.com/degrees/full-stack-web-developer-nanodegree--nd004).
 
-#### About the project
+### About the project
 >You've been hired onto a team working on a newspaper site. The user-facing newspaper site frontend itself, and the database behind it, are already built and running. You've been asked to build an internal reporting tool that will use information from the database to discover what kind of articles the site's readers like.
 
 >In this project, you'll work with data that could have come from a real-world web application, with fields representing information that a web server would record, such as HTTP status codes and URL paths. The web server and the reporting tool both connect to the same database, allowing information to flow from the web server into the report.
@@ -20,7 +20,7 @@ This project was created for the *Full Stack Web Developer Nanodegree* at [**Uda
 #### Prepare the Software and Data
  1. The virtual machine from step 1
  
-       If you need to bring the virtual machine back online (with `vagrant up`), do so now. Then log into it with `vagrant ssh`
+       If you need to bring the virtual machine back online (with `$ vagrant up`), do so now. Then log into it with `$ vagrant ssh`
  2. Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
     1. Unzip this file after downloading it. The file inside is called newsdata.sql.
     2. To run the reporting tool, you'll need to load the site's data into your local database. To load the data, use the command 
@@ -49,7 +49,7 @@ This project was created for the *Full Stack Web Developer Nanodegree* at [**Uda
 #### Run the Tool :boom:
 1. From the vagrant directory inside the virtual machine, run `logs_analysis.py` using: 
     ```
-    python3 logs_analysis.py
+    $ python3 logs_analysis.py
     ```
 2. Check the output file for the results `output.txt`
 
