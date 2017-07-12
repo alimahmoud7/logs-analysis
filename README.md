@@ -20,7 +20,7 @@ This project was created for the *Full Stack Web Developer Nanodegree* at [**Uda
 #### Prepare the Software and Data
  1. The virtual machine from step 1
  
-       If you need to bring the virtual machine back online (with `$ vagrant up`), do so now. Then log into it with `$ vagrant ssh`
+       If you need to bring the virtual machine back online with `$ vagrant up`. Then log into it with `$ vagrant ssh`
  2. Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
     1. Unzip this file after downloading it. The file inside is called newsdata.sql.
     2. To run the reporting tool, you'll need to load the site's data into your local database. To load the data, use the command 
@@ -57,3 +57,5 @@ This project was created for the *Full Stack Web Developer Nanodegree* at [**Uda
 - [The select statement](https://www.postgresql.org/docs/9.5/static/sql-select.html)
 - [SQL string functions](https://www.postgresql.org/docs/9.5/static/functions-string.html)
 - [Aggregate functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
+- [CREATE CAST](https://www.postgresql.org/docs/9.5/static/sql-createcast.html)
+- [Data Type Formatting Functions](https://www.postgresql.org/docs/9.5/static/functions-formatting.html)
