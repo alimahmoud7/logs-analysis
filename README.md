@@ -1,5 +1,4 @@
 # Logs Analysis Project
-This project was created for the *Full Stack Web Developer Nanodegree* at [**Udacity**](https://www.udacity.com/degrees/full-stack-web-developer-nanodegree--nd004).
 
 ### About the project
 >You've been hired onto a team working on a newspaper site. The user-facing newspaper site frontend itself, and the database behind it, are already built and running. You've been asked to build an internal reporting tool that will use information from the database to discover what kind of articles the site's readers like.
